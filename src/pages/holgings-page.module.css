@@ -1,0 +1,156 @@
+.overview {
+  position: absolute;
+  top: 534px;
+  left: 646px;
+}
+.angletor {
+  flex: 1;
+  position: relative;
+}
+.home {
+  left: 0;
+  width: 150px;
+  height: 80px;
+}
+.chat,
+.home,
+.notification,
+.portfolio {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.portfolio {
+  cursor: pointer;
+  text-decoration: none;
+  left: 181px;
+  color: inherit;
+  width: 150px;
+  height: 80px;
+}
+.chat,
+.notification {
+  left: 541px;
+  width: 165px;
+  height: 63px;
+}
+.chat {
+  left: 391px;
+  width: 120px;
+  height: 80px;
+}
+.frame1 {
+  flex: 1;
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.frame {
+  position: absolute;
+  top: 54px;
+  left: 188px;
+  width: 1065px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-85xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+}
+.holdings {
+  position: absolute;
+  top: 17px;
+  left: 699px;
+  display: inline-block;
+  width: 225px;
+  height: 75px;
+}
+.frame2,
+.frame3 {
+  position: absolute;
+  left: 0;
+}
+.frame3 {
+  top: 0;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.frame2 {
+  top: 181px;
+  width: 924px;
+  height: 100px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+}
+.p {
+  margin: 0;
+}
+.current {
+  position: absolute;
+  top: 87px;
+  left: 664px;
+}
+.investedAmountTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.investedAmount {
+  position: absolute;
+  top: 92px;
+  left: 991px;
+  display: flex;
+  align-items: center;
+  width: 216px;
+  height: 57px;
+}
+.positions {
+  position: relative;
+  display: inline-block;
+  width: 305px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.frame4,
+.frame5 {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.frame5 {
+  cursor: pointer;
+  text-decoration: none;
+  top: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-midnightblue);
+  width: 549px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 33px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.frame4 {
+  top: 303px;
+  width: 1207px;
+  height: 149px;
+}
+.holgingsPage {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 1269px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}

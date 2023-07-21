@@ -1,0 +1,82 @@
+.angletor {
+  flex: 1;
+  position: relative;
+}
+.chat,
+.home,
+.notification,
+.portfolio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+}
+.chat,
+.notification,
+.portfolio {
+  left: 181px;
+}
+.chat,
+.notification {
+  left: 541px;
+  width: 165px;
+  height: 63px;
+}
+.chat {
+  left: 391px;
+  width: 120px;
+  height: 80px;
+}
+.frame1 {
+  flex: 1;
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.frame,
+.frame2 {
+  position: absolute;
+}
+.frame {
+  top: 54px;
+  left: 188px;
+  width: 1065px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-85xl);
+}
+.frame2 {
+  top: 181px;
+  left: 0;
+}
+.frame4 {
+  align-self: stretch;
+}
+.frame3 {
+  position: absolute;
+  top: 303px;
+  left: 0;
+  width: 549px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainPage {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 1269px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}

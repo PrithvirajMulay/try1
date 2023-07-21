@@ -1,0 +1,6 @@
+.rectangleDiv {
+  position: relative;
+  background-color: var(--color-mediumspringgreen);
+  width: 100px;
+  height: 200px;
+}

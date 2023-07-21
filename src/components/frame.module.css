@@ -1,0 +1,52 @@
+.positions {
+  position: absolute;
+  top: 22px;
+  left: 699px;
+  display: inline-block;
+  width: 225px;
+  height: 75px;
+}
+.holdings {
+  position: relative;
+  display: inline-block;
+  width: 305px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.frame1 {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-midnightblue);
+  width: 548px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.frame,
+.frame2 {
+  position: absolute;
+  top: 44px;
+  left: 1050px;
+}
+.frame {
+  top: 181px;
+  left: 0;
+  width: 1200px;
+  height: 119px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}

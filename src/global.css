@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-outfit: Outfit;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gainsboro: #d9d9d9;
+  --color-midnightblue: #061878;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-mediumspringgreen: #00ff94;
+
+  /* Gaps */
+  --gap-85xl: 104px;
+
+  /* Paddings */
+  --padding-lgi: 19px;
+  --padding-19xl: 38px;
+  --padding-3xl: 22px;
+  --padding-13xl: 32px;
+
+  /* border radiuses */
+  --br-smi: 13px;
+  --br-lg: 18px;
+}

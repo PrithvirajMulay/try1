@@ -1,0 +1,6 @@
+.rectangleDiv {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 600px;
+  height: 200px;
+}

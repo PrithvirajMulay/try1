@@ -1,0 +1,117 @@
+.pieChartIcon {
+  position: absolute;
+  top: 544px;
+  left: 699px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.angletor {
+  flex: 1;
+  position: relative;
+}
+.home {
+  left: 0;
+  width: 150px;
+  height: 80px;
+}
+.chat,
+.home,
+.notification,
+.portfolio {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.portfolio {
+  cursor: pointer;
+  text-decoration: none;
+  left: 181px;
+  color: inherit;
+  width: 150px;
+  height: 80px;
+}
+.chat,
+.notification {
+  left: 541px;
+  width: 165px;
+  height: 63px;
+}
+.chat {
+  left: 391px;
+  width: 120px;
+  height: 80px;
+}
+.frame1 {
+  flex: 1;
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.frame {
+  position: absolute;
+  top: 54px;
+  left: 188px;
+  width: 1065px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-85xl);
+}
+.frameChild {
+  border-radius: var(--br-lg);
+  background-color: #ef4242;
+  width: 150px;
+  height: 75px;
+}
+.buy,
+.frameChild {
+  position: relative;
+}
+.frame2,
+.frame3,
+.frame4 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.frame4 {
+  flex: 1;
+  border-radius: var(--br-lg);
+  background-color: var(--color-mediumspringgreen);
+  flex-direction: column;
+  justify-content: center;
+}
+.frame2,
+.frame3 {
+  width: 400px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame3 {
+  flex-shrink: 0;
+  gap: 99px;
+  margin-left: -400px;
+}
+.frame2 {
+  position: absolute;
+  top: 1063px;
+  left: 699px;
+  height: 75px;
+  padding: 0 0 0 250.00048828125px;
+  box-sizing: border-box;
+}
+.positionsPage {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 1584px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}
